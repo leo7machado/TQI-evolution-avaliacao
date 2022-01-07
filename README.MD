@@ -1,16 +1,16 @@
 
-#Serviço de Empréstimo - Back-End
+# Serviço de Empréstimo - Back-End
 
 Desafio TQI para criação do back-end de um sistema de análise de crédito para uma empresa de empréstimo.
 
-##Funcionalidadaes
+## Funcionalidadaes
 
 - Cadastro de clientes
 - Login
 - Solicitação de empréstimo
 - Acompanhamento das solicitações de empréstimo
 
-###Utilizado
+### Utilizado
 ```
 - Java 17
 - PostgreSQL
@@ -19,12 +19,12 @@ Desafio TQI para criação do back-end de um sistema de análise de crédito par
 - Spring Security
 ```
 
-###Registro
+### Registro
 ````
  POST /api/v1/registration - registrar usuário
 ````
 
-###Empréstimo
+### Empréstimo
 ````
 POST /api/v1/loan       - requisitar um empréstimo
 GET /api/v1/loan        - ver todos os empréstimos requisitados pelo usuário
